@@ -107,9 +107,9 @@ def over?
 end
 
 def winner
-  won? = the_winner
+  won? = win_token
   if won?
-
+    return win_token
   end
 end
 
