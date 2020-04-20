@@ -6,3 +6,5 @@ require_relative '../lib/tic_tac_toe.rb'
 def instantiate(tictactoe)
   @tictactoe = tictactoe
 end
+
+play(tictactoe)
