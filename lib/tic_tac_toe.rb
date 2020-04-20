@@ -106,4 +106,8 @@ def over?
   end
 end
 
+def winner
+  if won?
+    return @board[won?(board)[0]]
+
 end
