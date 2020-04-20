@@ -107,7 +107,7 @@ def over?
 end
 
 def winner
-
+  won? = the_winner
   if won?
 
   end
