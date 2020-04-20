@@ -80,4 +80,11 @@ def won?
 end
 end
 
+def full?
+  if @board.all? {|i| i == "X" || i == "O"}
+    return true
+  else
+    return false
+  end
+  
 end
