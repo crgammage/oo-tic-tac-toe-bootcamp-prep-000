@@ -109,7 +109,7 @@ end
 def winner
   win_token = won?
   if won?
-    return win_token[@board[0]]
+    return @board[win_token[0]]
   end
 end
 
