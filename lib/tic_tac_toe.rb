@@ -108,7 +108,7 @@ end
 
 def winner
   if won?
-    return won?
+    return won?[win_combo[0]]
   end
 end
 
