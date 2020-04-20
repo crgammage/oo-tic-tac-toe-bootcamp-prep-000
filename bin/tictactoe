@@ -3,7 +3,8 @@ require 'pry'
 require_relative '../lib/tic_tac_toe.rb'
 
 class TicTacToe
-  @tasictactoe = tictactoe
+def instantiate(tictactoe)
+  @tictactoe = tictactoe
+end
 
-  play(tictactoe)
 end
