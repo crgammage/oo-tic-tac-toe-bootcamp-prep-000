@@ -109,7 +109,7 @@ end
 def winner
   win_token = won?
   if won?
-    return win_token[1[0]]
+    return win_token[0[0]]
   end
 end
 
